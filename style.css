@@ -1,0 +1,61 @@
+body {
+    font-family: tahoma;
+    text-align: center;
+  }
+  header {
+    letter-spacing: 6px;
+    background: royalblue;
+    padding: 20px;
+    color:lavender;
+  }
+  h2 {
+    font-size: 2em;
+    width: 100%;
+    align-content: center;
+    color:green;
+  }
+  section {
+    padding: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+  }
+  .flex-container {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:flex;
+    
+  }
+  .card {
+    border: 1px solid #ccc;
+    background-color: ivory;
+    margin: 25px;
+    padding: 25px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.3)
+  }
+  .icons {
+    font-size: 8em;
+    padding: 25px;
+  }
+  button, .button {
+    background: royalblue;
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  td {
+    padding: 10px;
+  }
+  table {
+    margin: auto;
+  }
+  #my-order{
+    background-color:#29C1C4;
+    padding:25px;
+    display:none;
+    }
+  footer{
+    padding:30px;
+    background:grey;
+    }
